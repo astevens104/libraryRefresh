@@ -170,7 +170,7 @@ button:active {
 
 #highlights:after {
     bottom: 1;
-    transform: translateY(0%) rotate(180deg);
+    transform: translateY(-15%) rotate(180deg);
 }
 
 #highlights {
@@ -217,6 +217,7 @@ button:active {
 
 #features {
     padding-top: 8vh;
+    background-color: rgba(115, 66, 214, 0.1);
 }
 
 
@@ -266,4 +267,23 @@ button:active {
     text-decoration: line-through;
     padding-right: 8px;
     color: #bfbfbf;
+}
+
+/*  RECENT  */
+
+.recent__books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*  EXPLORE  */
+
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+.btn__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
