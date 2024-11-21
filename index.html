@@ -12,6 +12,7 @@
   </head>
 
   <body>
+    <main>
     <section id="landing">
       <nav>
         <div class="nav__container">
@@ -302,13 +303,34 @@
 
     <section id="explore">
       <div class="container">
-        <div class="row">
+        <div class="row row__column">
           <h2 class="section__title">Explore more <span class="purple">Books</span></h2>
-          <div class="btn__wrapper">
+          <a href="#features">
           <button class="btn">Browse Books</button>
-          </div>
+          </a>
         </div>
       </div>
     </section>
+</main>
+
+    <footer>
+      <div class="container">
+        <div class="row row__column">
+          <a href="#">
+          <figure class="footer__logo">
+            <img class="footer__logo--img" src="./assets/Library.svg" alt="">
+          </figure>
+          </a>
+          <div class="footer__list">
+            <a class="footer__link" href="#">Home</a>
+            <a class="footer__link no__cursor"  href="#">About</a>
+            <a class="footer__link"  href="#">Books</a>
+            <a class="footer__link no__cursor"  href="#">Contact</a>
+          </div>
+          <p class="copyright">Copyright &copy 2024 Library</p>
+        </div>
+      </div>
+    </footer>
   </body>
+
 </html>
